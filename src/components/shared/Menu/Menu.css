@@ -1,0 +1,200 @@
+@import './../../../../style.css';
+
+.nav-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    height: 8rem;
+    top: 0px;
+    background-color: var(--background-color);
+    border-bottom: 1px solid #000;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-content-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 70%;
+}
+
+.account-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    width: 30%;
+}
+
+.menu-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.menu-ul-active {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--primary-button-color);
+}
+
+.menu-item {
+        text-decoration: none;
+        margin: 0 5px;
+        padding: 5px;
+        height: fit-content;
+        width: 100px;
+        border-radius: 5px;
+        background-color: var(--special-color);
+        color: var(--primary-button-color);
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-ul a {
+    text-decoration: none;
+}
+
+.menu-ul a:visited {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-ul a:active {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-logo-section {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.menu-logo-section img {
+    width: 8rem;
+    height: 6rem;
+    animation: emphasis 1.5s;
+}
+
+@keyframes emphasis {
+    0% {
+        transform: scaleX(1);
+    }
+    50% {
+        transform: scaleX(0.5);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.menu-logo-section img:hover {
+    transform: scale(1.1);
+}
+
+#LogIn-link {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+    height: fit-content;
+    border-radius: 5px;
+    color: var(--secondary-text-color);
+}
+
+#SignIn-link {
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    height: fit-content;
+    border: solid 1px #000;
+    border-radius: 5px;
+    background-color: var(--primary-button-color);
+    color: var(--secondary-text-color);
+}
+
+#SignIn-link:hover {
+    transform: scale(1.05);
+    background-color: var(--primary-button-hover-color);
+    color: var(--secondary-text-color);
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: var(--background-color);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: var(--primary-button-hover-color);
+  }

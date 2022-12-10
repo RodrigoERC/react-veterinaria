@@ -1,0 +1,115 @@
+@import './../../../../style.css';
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 10px;
+    height: 80vh;
+    bottom: 0px;
+    background-color: var(--background-color);
+    border-top: 1px solid #000;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10vh;
+    width: 100%;
+}
+
+.content-section a {
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-text-color);
+    font-size: 1.5rem;
+    margin: 0 10px;
+    width: 20%;
+}
+
+.content-section a p:hover {
+    display: flex;
+    text-decoration: underline;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-section img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+.copyright-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.social-media-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-media-section a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--secondary-text-color);
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-section a:hover {
+    transform: scale(1.05);
+}
+
+.social-media-section img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.FAQ-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.FAQ-section a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--secondary-text-color);
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
