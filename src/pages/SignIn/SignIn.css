@@ -1,0 +1,89 @@
+@import './../../../style.css';
+
+img {
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.signInForm-item {
+    margin: 10px;
+}
+
+.signInForm-item input {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-button-color);
+    background-color: var(--secondary-text-color);
+    color: var(--primary-text-color);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.signInForm-item input:active {
+    border: 1px solid var(--primary-button-hover-color);
+}
+
+#submit-btn {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-button-color);
+    background-color: var(--primary-button-color);
+    color: var(--special-color);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    animation: btn-hover 1s infinite;
+}
+
+@keyframes btn-hover {
+    0% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: var(--primary-button-color) 0px 0px 20px;
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+#cancel-btn {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-button-color);
+    background-color: var(--special-color);
+    color: var(--primary-button-color);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#cancel-btn:hover {
+    animation: btn-hover 1s infinite;
+}

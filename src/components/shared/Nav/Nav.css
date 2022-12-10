@@ -1,0 +1,168 @@
+.nav-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  height: 8rem;
+  top: 0px;
+  background-color: #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-content-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+
+.menu-ul-active {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: goldenrod;
+}
+
+.menu-item {
+  text-decoration: none;
+  margin: 0 5px;
+  padding: 5px;
+  height: fit-content;
+  width: 100px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: goldenrod;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+.menu-ul a:visited {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu-ul a:active {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+#Login-link {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  margin: 0 5px;
+  padding: 5px;
+  height: fit-content;
+}
+
+#Login-link:active {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+#Login-link:visited {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+#Signin-link {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  margin: 0 5px;
+  padding: 5px;
+  height: fit-content;
+}
+
+#Signin-link:active {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+#Signin-link:visited {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu-logo-section img {
+  width: 7rem;
+  height: 6rem;
+  animation: emphasis 1.5s;
+}
+
+@keyframes emphasis {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(0.5);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.menu-logo-section img:hover {
+  transform: scale(1.1);
+}

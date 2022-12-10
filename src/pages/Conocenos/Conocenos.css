@@ -1,0 +1,37 @@
+@import './../../../style.css';
+
+.carrousel-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: var(--secondary-text-color);
+}
+
+.carrousel-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 1.5rem;
+    color: var(--primary-text-color);
+    display: block;
+    margin: 20px;
+    text-align: justify;
+}
+
+.fixed-height {
+    height: 400px;
+}

@@ -1,0 +1,14 @@
+@import './../../../style.css';
+
+.content-section h1 {
+    font-size: 3rem;
+    color: var(--secondary-text-color);
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    color: var(--secondary-text-color);
+    text-align: center;
+    display: block;
+}
